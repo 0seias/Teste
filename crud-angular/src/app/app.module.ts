@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppTesteExcluirComponent } from './app-teste-excluir/app-teste-excluir.component';
 import { AppNhamenhame } from './app-nhamenhame.html/app-nhamenhame.html.component';
 import { AppNhamedevelopComponent } from './app-nhamedevelop/app-nhamedevelop.component';
+import { AppMasternhameComponent } from './app-masternhame/app-masternhame.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { AppNhamedevelopComponent } from './app-nhamedevelop/app-nhamedevelop.co
     AppTesteExcluirComponent,
     AppNhamenhame.HtmlComponent,
     AppNhamedevelopComponent
+    AppMasternhameComponent
   ],
   imports: [
     BrowserModule,
